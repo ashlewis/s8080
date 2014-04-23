@@ -37,6 +37,7 @@ projects[entity][version] = "1.5"
 
 projects[epsacrop][subdir] = "contrib"
 projects[epsacrop][version] = "2.2"
+projects[epsacrop][patch][] = https://drupal.org/files/issues/epsacrop-requirements-block-installation-2237127-2.patch
 
 projects[features_extra][subdir] = "contrib"
 projects[features_extra][version] = "1.0-beta1"
