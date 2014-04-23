@@ -116,7 +116,7 @@ projects[tic][type] = "theme"
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[jquery.ui][download][type] = "git"
+libraries[jquery.ui][download][type] = "file"
 libraries[jquery.ui][download][url] = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"
 libraries[jquery.ui][directory_name] = "jquery.ui/ui"
 libraries[jquery.ui][type] = "library"
@@ -130,7 +130,7 @@ libraries[Jcrop][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[jquery][download][type] = "git"
+libraries[jquery][download][type] = "file"
 libraries[jquery][download][url] = "https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"
 libraries[jquery][directory_name] = "jquery"
 libraries[jquery][type] = "library"
