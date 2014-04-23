@@ -47,6 +47,7 @@ projects[features][version] = "2.0"
 
 projects[fences][subdir] = "contrib"
 projects[fences][version] = "1.0"
+projects[fences][patch][] = https://drupal.org/files/undefined-index-1561244-7.patch
 
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta7"
