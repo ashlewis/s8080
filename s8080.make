@@ -73,6 +73,9 @@ projects[link][version] = "1.2"
 projects[module_filter][subdir] = "contrib"
 projects[module_filter][version] = "2.0-alpha2"
 
+projects[menu_block][subdir] = "contrib"
+projects[menu_block][version] = "2.3"
+
 projects[node_page_disable][subdir] = "contrib"
 projects[node_page_disable][version] = "1.0-rc2"
 
@@ -99,6 +102,9 @@ projects[strongarm][version] = "2.0"
 
 projects[token][subdir] = "contrib"
 projects[token][version] = "1.5"
+
+projects[username_enumeration_prevention][subdir] = "contrib"
+projects[username_enumeration_prevention][version] = "1.0"
 
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.7"

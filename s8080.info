@@ -66,4 +66,6 @@ dependencies[] = security_review
 dependencies[] = prod_check
 dependencies[] = node_page_disable
 dependencies[] = emptyparagraphkiller
-dependencies[] = fences      
+dependencies[] = fences
+dependencies[] = menu_block
+dependencies[] = username_enumeration_prevention
