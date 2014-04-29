@@ -69,3 +69,4 @@ dependencies[] = emptyparagraphkiller
 dependencies[] = fences
 dependencies[] = menu_block
 dependencies[] = username_enumeration_prevention
+dependencies[] = references

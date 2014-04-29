@@ -88,6 +88,9 @@ projects[prod_check][version] = "1.8"
 projects[recaptcha][subdir] = "contrib"
 projects[recaptcha][version] = "1.11"
 
+projects[references][subdir] = "contrib"
+projects[references][version] = "2.1"
+
 projects[search404][subdir] = "contrib"
 projects[search404][version] = "1.3"
 
