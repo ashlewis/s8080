@@ -23,17 +23,26 @@ projects[captcha][version] = "1.0"
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.13"
 
+projects[date][subdir] = "contrib"
+projects[date][version] = "2.7"
+
 projects[devel][subdir] = "contrib"
 projects[devel][version] = "1.4"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
 
+projects[email][subdir] = "contrib"
+projects[email][version] = "1.3"
+
 projects[emptyparagraphkiller][subdir] = "contrib"
 projects[emptyparagraphkiller][version] = "1.0-beta2"
 
 projects[entity][subdir] = "contrib"
 projects[entity][version] = "1.5"
+
+projects[entity_view_mode][subdir] = "contrib"
+projects[entity_view_mode][version] = "1.0-rc1"
 
 projects[epsacrop][subdir] = "contrib"
 projects[epsacrop][version] = "2.x-dev"
@@ -51,6 +60,12 @@ projects[fences][patch][] = https://drupal.org/files/undefined-index-1561244-7.p
 
 projects[field_collection][subdir] = "contrib"
 projects[field_collection][version] = "1.0-beta7"
+
+projects[field_collection_fieldset][subdir] = "contrib"
+projects[field_collection_fieldset][version] = "2.4"
+
+projects[field_group][subdir] = "contrib"
+projects[field_group][version] = "1.3"
 
 projects[google_analytics][subdir] = "contrib"
 projects[google_analytics][version] = "1.4"
@@ -94,6 +109,9 @@ projects[references][version] = "2.1"
 projects[search404][subdir] = "contrib"
 projects[search404][version] = "1.3"
 
+projects[search_krumo][subdir] = "contrib"
+projects[search_krumo][version] = "1.5"
+
 projects[security_review][subdir] = "contrib"
 projects[security_review][version] = "1.1"
 
@@ -120,12 +138,10 @@ projects[xmlsitemap][version] = "2.0"
 
 ; Themes
 projects[zen][version] = "5.4"
+projects[bootstrap][version] = "3.0"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-projects[tic][download][type] = ""
-projects[tic][download][url] = ""
-projects[tic][type] = "theme"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
