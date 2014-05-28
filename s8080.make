@@ -167,11 +167,12 @@ libraries[jquery][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[ckeditor][download][type] = "git"
-libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
-libraries[ckeditor][download][tag] = "standard/4.4.1"
-libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][type] = "library"
+; ckeditor mod includes its own makefile that dowloads ckeditor library
+;libraries[ckeditor][download][type] = "git"
+;libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
+;libraries[ckeditor][download][tag] = "standard/4.4.1"
+;libraries[ckeditor][directory_name] = "ckeditor"
+;libraries[ckeditor][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
