@@ -21,13 +21,13 @@ projects[captcha][subdir] = "contrib"
 projects[captcha][version] = "1.0"
 
 projects[ckeditor][subdir] = "contrib"
-projects[ckeditor][version] = "1.13"
+projects[ckeditor][version] = "1.14"
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.7"
 
 projects[devel][subdir] = "contrib"
-projects[devel][version] = "1.4"
+projects[devel][version] = "1.5"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
@@ -169,6 +169,7 @@ libraries[jquery][type] = "library"
 ; and url is the url of the download.
 libraries[ckeditor][download][type] = "git"
 libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
+projects[ckeditor][download][tag] = "standard/4.4.1"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 
@@ -178,3 +179,9 @@ libraries[json2][download][type] = "git"
 libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js.git"
 libraries[json2][directory_name] = "json2"
 libraries[json2][type] = "library"
+
+libraries[bootstrap][download][type] = "git"
+libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap-sass.git"
+projects[bootstrap][download][tag] = "v3.1.1"
+libraries[bootstrap][directory_name] = "bootstrap"
+libraries[bootstrap][type] = "library"
