@@ -22,6 +22,8 @@ projects[captcha][version] = "1.0"
 
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.14"
+; drush make fails to unzip ckeditor library which is dowloaded as part of modules makefile, so use git version below
+projects[ckeditor][do_recursion] = 0
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.7"
@@ -168,11 +170,11 @@ libraries[jquery][type] = "library"
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
 ; ckeditor mod includes its own makefile that dowloads ckeditor library
-;libraries[ckeditor][download][type] = "git"
-;libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
-;libraries[ckeditor][download][tag] = "standard/4.4.1"
-;libraries[ckeditor][directory_name] = "ckeditor"
-;libraries[ckeditor][type] = "library"
+libraries[ckeditor][download][type] = "git"
+libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
+libraries[ckeditor][download][tag] = "standard/4.4.0"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
