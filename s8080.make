@@ -169,7 +169,7 @@ libraries[jquery][type] = "library"
 ; and url is the url of the download.
 libraries[ckeditor][download][type] = "git"
 libraries[ckeditor][download][url] = "https://github.com/ckeditor/ckeditor-releases.git"
-projects[ckeditor][download][tag] = "standard/4.4.1"
+libraries[ckeditor][download][tag] = "standard/4.4.1"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 
@@ -182,6 +182,6 @@ libraries[json2][type] = "library"
 
 libraries[bootstrap][download][type] = "git"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap-sass.git"
-projects[bootstrap][download][tag] = "v3.1.1"
+libraries[bootstrap][download][tag] = "v3.1.1"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
