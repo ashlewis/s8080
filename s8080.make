@@ -20,9 +20,9 @@ projects[captcha][version] = "1.0"
 
 projects[ckeditor][subdir] = "contrib"
 projects[ckeditor][version] = "1.14"
-projects[ckeditor][do_recursion] = false
 ; drush make fails to unzip ckeditor library which is dowloaded as part of modules makefile, so use git version below
 ; NOTE: Need to keep up to date with ckedtor library below
+projects[ckeditor][do_recursion] = 0
 
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.7"
