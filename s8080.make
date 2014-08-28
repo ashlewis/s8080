@@ -14,7 +14,7 @@ projects[advanced_link][version] = "1.3"
 
 projects[backup_migrate][version] = "2.8"
 
-projects[better_formats][version] = "1.0-beta5"
+projects[better_formats][version] = "1.0-beta1"
 
 projects[coder][version] = "2.2"
 
