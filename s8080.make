@@ -38,7 +38,7 @@ projects[entity][version] = "1.5"
 
 projects[entityconnect][version] = "1.0-rc1"
 
-projects[entity_form][version] = "2.0-beta4"
+projects[entityform][version] = "2.0-beta4"
 
 projects[entity_view_mode][version] = "1.0-rc1"
 
