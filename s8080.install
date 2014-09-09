@@ -32,5 +32,19 @@ function s8080_install() {
 }
 
 function s8080_update_7001(){
-  install_profile_modules(array());
+  $module_list = array(
+    'better_formats',
+    'coder',
+    'entityconnect',
+    'globalredirect',
+    'logintoboggan',
+    'password_policy',
+    'pathauto_persist',
+    'smart_trim',
+    'uuid',
+    'uuid_features',
+    'ckeditor'
+  );
+  
+  module_enable($module_list, true);
 }
