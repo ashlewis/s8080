@@ -125,7 +125,7 @@ projects[xmlsitemap][version] = "2.0"
 
 ; Themes
 projects[zen][version] = "5.4"
-projects[bootstrap][version] = "3.0"
+projects[bootstrap][version] = "3.1-beta2"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
@@ -161,6 +161,6 @@ libraries[json2][type] = "library"
 
 libraries[bootstrap][download][type] = "git"
 libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap-sass.git"
-libraries[bootstrap][download][tag] = "v3.1.1"
+libraries[bootstrap][download][tag] = "v3.2.0"
 libraries[bootstrap][directory_name] = "bootstrap"
 libraries[bootstrap][type] = "library"
