@@ -101,7 +101,7 @@ projects[search_krumo][version] = "1.5"
 
 projects[securelogin][version] = "1.4"
 
-projects[security_review][version] = "1.1"
+projects[security_review][version] = "1.2"
 
 projects[site_map][version] = "1.2"
 
