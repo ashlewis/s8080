@@ -43,7 +43,7 @@ projects[entityform][version] = "2.0-beta4"
 projects[entity_view_mode][version] = "1.0-rc1"
 
 projects[epsacrop][version] = "2.x-dev"
-projects[epsacrop][patch][] = https://drupal.org/files/issues/epsacrop-requirements-block-installation-2237127-1.patch
+; projects[epsacrop][patch][] = https://drupal.org/files/issues/epsacrop-requirements-block-installation-2237127-1.patch
 
 projects[features_extra][version] = "1.0-beta1"
 
