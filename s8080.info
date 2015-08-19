@@ -1,12 +1,12 @@
 name = s8080
-description = Install the s8080 custom profile
-version = 0.1
+description = Custom s8080 profile
+version = 0.2
 core = 7.x
           
 ;Standard install core modules
 dependencies[] = block
 ;dependencies[] = color
-dependencies[] = comment
+;dependencies[] = comment
 dependencies[] = contextual
 ;dependencies[] = dashboard
 dependencies[] = help
@@ -19,7 +19,7 @@ dependencies[] = path
 dependencies[] = taxonomy
 dependencies[] = dblog
 ;dependencies[] = search
-dependencies[] = shortcut
+;dependencies[] = shortcut
 ;dependencies[] = toolbar
 ;dependencies[] = overlay
 dependencies[] = field_ui
@@ -27,60 +27,215 @@ dependencies[] = file
 dependencies[] = rdf
 
 ;Contrib modules
-dependencies[] = views
-dependencies[] = views_ui
-dependencies[] = devel
-dependencies[] = devel_generate
-dependencies[] = jquery_update
-;dependencies[] = zen
-;theme = zen
-dependencies[] = token
-dependencies[] = pathauto
-dependencies[] = admin_menu
-dependencies[] = features
-dependencies[] = module_filter
+;-------------------------
+
+;Base
+;------
 dependencies[] = ctools
-dependencies[] = link
-dependencies[] = imce
-dependencies[] = backup_migrate
-dependencies[] = recaptcha
-dependencies[] = diff
-dependencies[] = entity
-dependencies[] = googleanalytics
-dependencies[] = imageapi
-dependencies[] = libraries
-dependencies[] = pathauto
-dependencies[] = search404
-dependencies[] = site_map
-dependencies[] = strongarm
 dependencies[] = token
-dependencies[] = ckeditor
-dependencies[] = xmlsitemap
+dependencies[] = entity
+;dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = better_exposed_filters
+dependencies[] = libraries
+dependencies[] = jquery_update
+dependencies[] = media
+dependencies[] = bean
+dependencies[] = webform
+dependencies[] = backup_migrate
+dependencies[] = transliteration
+
+
+;Fields
+;------
+dependencies[] = field_group
+dependencies[] = link
 dependencies[] = advanced_link
-;dependencies[] = epsacrop
-dependencies[] = fe_block
-dependencies[] = fe_profile
-dependencies[] = field_collection
-dependencies[] = security_review
-dependencies[] = prod_check
-dependencies[] = node_page_disable
-dependencies[] = emptyparagraphkiller
-dependencies[] = menu_block
-dependencies[] = username_enumeration_prevention
-dependencies[] = references
+dependencies[] = addressfield
 dependencies[] = date
 dependencies[] = email
-dependencies[] = entity_view_mode
-dependencies[] = field_collection_fieldset
-dependencies[] = field_group
-dependencies[] = search_krumo
-dependencies[] = better_formats
-dependencies[] = coder
-dependencies[] = entityconnect
-dependencies[] = globalredirect
-dependencies[] = logintoboggan
-dependencies[] = password_policy
-dependencies[] = pathauto_persist
+dependencies[] = entityreference
+dependencies[] = reference_delete
+dependencies[] = cer
+dependencies[] = field_collection
+; @TODO: i18n support?
+;dependencies[] = paragraphs
 dependencies[] = smart_trim
+dependencies[] = video_embed_field
+
+;Location
+;------
+dependencies[] = geophp
+dependencies[] = geocoder
+dependencies[] = geofield
+dependencies[] = geofield_gmap
+; @TODO: investigate
+dependencies[] = getlocations
+
+;Images
+;------
+dependencies[] = imageapi
+dependencies[] = imce
+dependencies[] = picture
+dependencies[] = imagefield_focus
+;dependencies[] = epsacrop
+
+;UI
+;------
+dependencies[] = ckeditor
+dependencies[] = wysiwyg
+dependencies[] = better_formats
+dependencies[] = simplify
+
+
+;Config
+;------
+dependencies[] = features
+dependencies[] = features_extra
+dependencies[] = strongarm
 dependencies[] = uuid
 dependencies[] = uuid_features
+dependencies[] = feature_set
+
+
+;Security
+;------
+dependencies[] = password_policy
+dependencies[] = securelogin
+dependencies[] = username_enumeration_prevention
+dependencies[] = session_limit
+dependencies[] = session_cookie_lifetime
+dependencies[] = autologout
+dependencies[] = ejectorseat
+dependencies[] = node_page_disable
+dependencies[] = eu_cookie_compliance
+dependencies[] = honeypot
+dependencies[] = spamspan
+dependencies[] = invisimail
+
+; dev only
+dependencies[] = prod_check
+dependencies[] = security_review
+dependencies[] = hacked
+
+
+;Encryption
+;------
+dependencies[] = encrypt
+dependencies[] = field_encrypt
+dependencies[] = webform_encrypt
+dependencies[] = webform_clear
+
+
+;Admin
+;------
+dependencies[] = admin_menu
+dependencies[] = navbar
+dependencies[] = module_filter
+dependencies[] = masquerade
+; dev only
+dependencies[] = realistic_dummy_content
+
+;Development
+;------
+; dev only
+dependencies[] = coder
+dependencies[] = devel
+dependencies[] = devel_themer
+dependencies[] = search_krumo
+dependencies[] = diff
+dependencies[] = maillog
+dependencies[] = environment_indicator
+dependencies[] = environment_modules
+
+
+
+;SEO
+;------
+dependencies[] = redirect
+dependencies[] = globalredirect
+dependencies[] = pathauto
+dependencies[] = site_map
+dependencies[] = xmlsitemap
+dependencies[] = metatags
+
+
+;Reporting
+;------
+dependencies[] = system_status
+dependencies[] = google_analytics
+dependencies[] = 
+dependencies[] = 
+
+
+;performance
+;------
+; dependencies[] = memcache
+; requires memcache
+; dependencies[] = entitycache 
+dependencies[] = imageapi_optimize
+dependencies[] = image_resize_filter
+dependencies[] = views_content_cache
+; dependencies[] = advagg
+dependencies[] = advagg_bundler
+dependencies[] = advagg_mod
+
+; dev only
+dependencies[] = missing_module
+
+;Internationalization
+;------
+dependencies[] = i18n
+dependencies[] = i18n_block
+dependencies[] = i18n_field
+dependencies[] = i18n_node_reference
+dependencies[] = i18n_menu
+dependencies[] = i18n_node
+dependencies[] = i18n_panels
+dependencies[] = profile2_i18n
+dependencies[] = i18n_variable
+dependencies[] = i18nviews
+dependencies[] = i18_page_views
+dependencies[] = entity_translation
+dependencies[] = xmlsitemap_i18n
+dependencies[] = translated_entityreference
+
+;moderation
+;------
+;dependencies[] = 
+
+;theme
+;------
+dependencies[] = bootstrap
+dependencies[] = fences
+dependencies[] = magic
+dependencies[] = html5_tools
+dependencies[] = semanticviews
+; dev only
+dependencies[] = styleguide
+
+;INVESTIGATE
+;------
+;dependencies[] = content_dependency
+
+;panels
+;dependencies[] = panopoly
+;dependencies[] = panels_everywhere
+;dependencies[] = classy_panel_styles
+
+;dependencies[] = fate
+;dependencies[] = fape
+
+; data vis
+; dev only
+;dependencies[] = graphapi
+;dependencies[] = d3
+
+; content in wysiwyg
+;dependencies[] = wysiwyg-fields
+;dependencies[] = wysifield
+;dependencies[] = token_insert_entity
+;dependencies[] = entity_embed
+;dependencies[] = entity_type_browser
+
+;dependencies[] = module_builder
